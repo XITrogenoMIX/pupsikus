@@ -1,0 +1,46 @@
+.navigation {
+display: flex;
+align-items: center;
+gap: 70px;
+background-color: blueviolet;
+height: 50px;
+}
+
+ul{
+list-style: none;
+}
+
+main {
+display:  flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    border-right: 5px solid rgb(133, 0, 162);
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+    height: 60px;
+    font-size: 30px;
+}
+
+*{
+    margin: 0;
+}
